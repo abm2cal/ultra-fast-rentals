@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Perfect Rentals - For Parties and Travel Adventures</title>
+    <style>
+        :root {
+            --primary-color: #FF1493; /* Deep Pink */
+            --secondary-color: #00CED1; /* Dark Turquoise */
+            --accent-color: #FFD700; /* Gold */
+            --text-color: #333;
+            --light-bg: #f0f0f0;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .main-content {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--text-color);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #FFC700;
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .image-item {
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .image-item img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .image-item img: hover {
+            transform: scale(1.05);
+        }
+        h2 {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Party Perfect Rentals</h1>
+        <p>Your One-Stop Shop for Parties and Travel Adventures!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#house-parties">House Parties</a></li>
+            <li><a href="#travel-adventures">Travel Adventures</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="main-content">
+            <h2>Welcome to Party Perfect Rentals</h2>
+            <p>Whether you're throwing an unforgettable house party or embarking on an exciting travel adventure, we've got all the rentals you need to make your experience truly perfect!</p>
+            <a href="#contact" class="cta-button">Book Now</a>
+        </section>
+
+        <section id="house-parties" class="main-content">
+            <h2>Small-Scale House and Farmhouse Parties</h2>
+            <p>Transform your gathering into an extraordinary event with our premium rentals:</p>
+            <ul>
+                <li>Seating arrangements - Various styles of Chairs, Tables, and long Benches</li>
+                <li>Projectors and Screens for streaming sports, movies, and shows</li>
+                <li>High-quality Speakers and Audio Systems</li>
+                <li>Instant Pots and Hot Packs for serving hot and delicious food</li>
+            </ul>
+            <a href="#contact" class="cta-button">Rent Party Gear</a>
+        </section>
+
+        <section id="travel-adventures" class="main-content">
+            <h2>Travel for Holidays</h2>
+            <p>Embark on your next adventure fully equipped and in style:</p>
+            <ul>
+                <li>Stylish Winter Outerwear</li>
+                <li>Trendy Suitcases and Packing Cubes</li>
+                <li>Ultra-light Camping Gear</li>
+                <li>GoPros, Cameras, and Camera Accessories</li>
+            </ul>
+            <a href="#contact" class="cta-button">Rent Travel Gear</a>
+        </section>
+
+        <section id="gallery" class="main-content">
+            <h2>Our Inventory</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\party-setup-1.jpg" alt="Elegant party setup">
+                    <p>Elegant Party Setup</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\party-setup-2.jpg" alt="Elegant party setup">
+                    <p>Elegant Party Setup</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\party-setup-3.jpg" alt="Elegant party setup">
+                    <p>Elegant Party Setup</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\projector-setup-1.jpg" alt="Projector and screen setup">
+                    <p>Movie Night Setup</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\projector-setup-2.jpg" alt="Projector and screen setup">
+                    <p>Movie Night Setup</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\audio-sytem.jpg" alt="Professional audio system">
+                    <p>Pro Audio System</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\winter-gear.jpg" alt="Stylish winter outerwear">
+                    <p>Winter Adventure Gear</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\camping-gear.jpg" alt="Ultra-light camping gear">
+                    <p>Camping Equipment</p>
+                </div>
+                <div class="image-item">
+                    <img src="C:\Users\td035\Documents\party-rentals-website-main\images\camera-gear.jpg" alt="Camera and accessories">
+                    <p>Photography Gear</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="main-content">
+            <h2>About Us</h2>
+            <p>Party Perfect Rentals has served the community for over 10 years. We've expanded our inventory to cater to both unforgettable house parties and exciting travel adventures. Our commitment to quality equipment and excellent customer service remains unwavering, ensuring your events and travels are nothing short of perfect.</p>
+        </section>
+
+        <section id="contact" class="main-content">
+            <h2>Contact Us</h2>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: info@partyperfectrentals.com</p>
+            <p>Address: 123 Event Street, Party City, PC 12345</p>
+            <p>Hours: Mon-Fri 9am-6pm, Sat 10am-4pm, Closed on Sundays</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Party Perfect Rentals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
